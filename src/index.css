@@ -1,13 +1,182 @@
+@font-face {
+  font-family: 'Circular Std';
+  src:  url(./fonts/Circularstd/CircularStd-Book.ttf) format('ttf');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'Circular Std', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h2{
+  font-family: 'Circular Std';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 51px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+ h3{
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  color: #181818;
+ }
+ h6{
+  font-family: 'Circular Std';
+font-style: normal !important;
+font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 27px !important;
+letter-spacing: 0.01em !important;
+color: #000C2D;
+
+ }
+ .wrapper {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* A media query for a large screen */
+@media (min-width: 1170px) {
+  .wrapper {
+    max-width: 1170px;
+  }
+}
+
+ .d-flex{
+  display: flex;
+ }
+ .flex-wrap{
+  flex-wrap: wrap;
+ }
+ .align-items-center{
+  align-items: center;
+ }
+ .justify-content-center{
+  justify-content: space-between;
+ }
+ .btn{
+  width: 162px;
+height: 52px;
+background: #000000;
+text-align: center;
+
+ }
+ .btn a{
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #FFFFFF;
+ }
+ 
+
+ .nav_link{
+
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+/* dark-navy */
+padding: 15px !important;
+color: #000C2D !important;
+ }
+
+ .btn_primary{
+  color:#2F70FE  !important;
+  border: 1px solid #2F70FE !important;
+  padding: 12px 28px !important;
+  max-height: 44px;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+   }
+.pt-40{
+  padding-top: 40px;
+}
+.py-148{
+  padding:80px 0;
+}
+   .py-24{
+    padding: 24px 0;
+   }
+
+  .py-80{
+    padding: 80px 0;
+  }
+.py-12{
+  padding: 12px 0;
+}
+  .mw-400{
+    max-width: 410px;
+  }
+
+  .mw-379{
+    max-width: 379px;
+  }
+
+  .bg_about{
+background: #00ff850d;
+
+  }
+
+ 
+
+  .bg_about h6{
+    max-width: 215px;
+    margin: auto;
+  }
+  .frame_about{
+    position: absolute;
+    left: 120px;
+    bottom: 56px;
+  }
+  .frame2_about{
+    position: absolute;
+    right: 123px;
+    top: 36px;
+  }
+  @media only screen and (max-width: 991px) {
+    .frame2_about {
+      position: absolute;
+      right: 27px;
+      top: 8px;
+  }
+    .frame_about{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 430px) {
+    .frame2_about {
+      display: none;
+  }
+    .frame_about{
+      display: block;
+      position: absolute;
+      left: 21px;
+      bottom: -7px;
+    }
+  }

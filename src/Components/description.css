@@ -1,0 +1,17 @@
+.signupbtn{
+    width: 87px;
+height: 28px;
+
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+text-align: center;
+
+color: #2F70FE;
+text-decoration: none;
+
+}

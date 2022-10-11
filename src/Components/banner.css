@@ -1,0 +1,79 @@
+
+.banner{
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+}
+
+h1{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 3rem;
+line-height: 4rem;
+text-align: center;
+color: #FFFFFF;
+
+}
+.content{
+    margin: auto;
+    text-align: center;
+    max-width: 620px;
+}
+h6{
+    max-width: 605px;
+
+}
+.btn_black{
+    width: 162px;
+height: 52px;
+margin: auto;
+padding: 16px 25px;
+
+background: #000000;
+}
+.btn_black a{
+    font-family: 'Circular Std';
+    vertical-align: super;
+    text-decoration: none;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+ .leftImg, .rightImg{
+    position: absolute;
+}
+.rightImg{
+    right: 0;
+    bottom: 47px;}
+.leftImg{
+    bottom: -18px;
+    left: 0;
+}
+.banner .wrapper{
+    position: relative;
+
+    padding-top: 114px;
+    padding-bottom: 137px;
+}
+@media only screen and (max-width: 1080px) {
+    .banner .wrapper{
+        padding-bottom: 260px;
+    }
+}
+@media only screen and (max-width: 660px) {
+    .banner .wrapper{
+        padding-bottom: 290px;
+        padding-top: 60px;
+
+    }
+    .leftImg{
+        display: none;
+    }
+
+}
